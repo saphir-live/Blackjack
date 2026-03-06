@@ -78,14 +78,16 @@
     import { getDatabase, ref, set, onValue, update } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
 
     // --- CONFIGURATION FIREBASE ---
-    // REMPLACE CES VALEURS PAR TES PROPRES INFOS
     const firebaseConfig = {
-        apiKey: "TON_API_KEY",
-        authDomain: "TON_PROJET.firebaseapp.com",
-        databaseURL: "https://TON_PROJET-default-rtdb.firebaseio.com",
-        projectId: "TON_PROJET_ID",
-        storageBucket: "TON_PROJET.appspot.com",
-    };
+  apiKey: "AIzaSyBjpOfmZIBdEDGcoG_Hmkslqt68Cpv32OI",
+  authDomain: "blackjack-5d51c.firebaseapp.com",
+  databaseURL: "https://blackjack-5d51c-default-rtdb.firebaseio.com",
+  projectId: "blackjack-5d51c",
+  storageBucket: "blackjack-5d51c.firebasestorage.app",
+  messagingSenderId: "88848439981",
+  appId: "1:88848439981:web:cca38bc666edcb96438424",
+  measurementId: "G-0V519VE20M"
+};
 
     const app = initializeApp(firebaseConfig);
     const db = getDatabase(app);
